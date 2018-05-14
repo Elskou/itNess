@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		13051D13209FBDB200FF2460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13051D12209FBDB200FF2460 /* AppDelegate.swift */; };
-		13051D15209FBDB200FF2460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13051D14209FBDB200FF2460 /* ViewController.swift */; };
+		13051D15209FBDB200FF2460 /* ExerciceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13051D14209FBDB200FF2460 /* ExerciceViewController.swift */; };
 		13051D18209FBDB200FF2460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13051D16209FBDB200FF2460 /* Main.storyboard */; };
 		13051D1A209FBDB400FF2460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13051D19209FBDB400FF2460 /* Assets.xcassets */; };
 		13051D1D209FBDB400FF2460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13051D1B209FBDB400FF2460 /* LaunchScreen.storyboard */; };
 		13051D28209FBDB400FF2460 /* itNessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13051D27209FBDB400FF2460 /* itNessTests.swift */; };
 		13051D33209FBDB400FF2460 /* itNessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13051D32209FBDB400FF2460 /* itNessUITests.swift */; };
+		13051D8120A6567600FF2460 /* Exercice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13051D8020A6567600FF2460 /* Exercice.swift */; };
+		13051D8720A65A5300FF2460 /* Muscles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13051D8620A65A5300FF2460 /* Muscles.swift */; };
+		13051D8920A666E800FF2460 /* TrainingProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13051D8820A666E800FF2460 /* TrainingProgram.swift */; };
+		13051D8B20A6670100FF2460 /* ExerciceProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13051D8A20A6670100FF2460 /* ExerciceProgram.swift */; };
+		13051D8D20A6684E00FF2460 /* ExercicesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13051D8C20A6684E00FF2460 /* ExercicesModel.swift */; };
+		13051D9020A6776600FF2460 /* ExercicesModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13051D8F20A6776600FF2460 /* ExercicesModelController.swift */; };
+		1384CB2B20A8FBD700D1ED71 /* UILabelNumericDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1384CB2A20A8FBD700D1ED71 /* UILabelNumericDouble.swift */; };
+		1384CB2D20A8FFDE00D1ED71 /* UICustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1384CB2C20A8FFDE00D1ED71 /* UICustomErrors.swift */; };
+		1384CB3020A90A0000D1ED71 /* DataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1384CB2F20A90A0000D1ED71 /* DataUtils.swift */; };
+		13B5DDD420A722BD00666D2C /* MuscleLedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B5DDD320A722BD00666D2C /* MuscleLedLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		13051D0F209FBDB200FF2460 /* itNess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itNess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13051D12209FBDB200FF2460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13051D14209FBDB200FF2460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13051D14209FBDB200FF2460 /* ExerciceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciceViewController.swift; sourceTree = "<group>"; };
 		13051D17209FBDB200FF2460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13051D19209FBDB400FF2460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13051D1C209FBDB400FF2460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,16 @@
 		13051D2E209FBDB400FF2460 /* itNessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itNessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13051D32209FBDB400FF2460 /* itNessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itNessUITests.swift; sourceTree = "<group>"; };
 		13051D34209FBDB400FF2460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13051D8020A6567600FF2460 /* Exercice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercice.swift; sourceTree = "<group>"; };
+		13051D8620A65A5300FF2460 /* Muscles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muscles.swift; sourceTree = "<group>"; };
+		13051D8820A666E800FF2460 /* TrainingProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgram.swift; sourceTree = "<group>"; };
+		13051D8A20A6670100FF2460 /* ExerciceProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciceProgram.swift; sourceTree = "<group>"; };
+		13051D8C20A6684E00FF2460 /* ExercicesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercicesModel.swift; sourceTree = "<group>"; };
+		13051D8F20A6776600FF2460 /* ExercicesModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercicesModelController.swift; sourceTree = "<group>"; };
+		1384CB2A20A8FBD700D1ED71 /* UILabelNumericDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelNumericDouble.swift; sourceTree = "<group>"; };
+		1384CB2C20A8FFDE00D1ED71 /* UICustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomErrors.swift; sourceTree = "<group>"; };
+		1384CB2F20A90A0000D1ED71 /* DataUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUtils.swift; sourceTree = "<group>"; };
+		13B5DDD320A722BD00666D2C /* MuscleLedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleLedLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +97,7 @@
 		13051D06209FBDB200FF2460 = {
 			isa = PBXGroup;
 			children = (
+				1384CB2920A8FBA500D1ED71 /* framework */,
 				13051D11209FBDB200FF2460 /* itNess */,
 				13051D26209FBDB400FF2460 /* itNessTests */,
 				13051D31209FBDB400FF2460 /* itNessUITests */,
@@ -97,8 +118,10 @@
 		13051D11209FBDB200FF2460 /* itNess */ = {
 			isa = PBXGroup;
 			children = (
+				13B5DDD220A7229D00666D2C /* presentationLayer */,
+				13051D8E20A6774C00FF2460 /* modelController */,
+				13051D7F20A6561A00FF2460 /* model */,
 				13051D12209FBDB200FF2460 /* AppDelegate.swift */,
-				13051D14209FBDB200FF2460 /* ViewController.swift */,
 				13051D16209FBDB200FF2460 /* Main.storyboard */,
 				13051D19209FBDB400FF2460 /* Assets.xcassets */,
 				13051D1B209FBDB400FF2460 /* LaunchScreen.storyboard */,
@@ -123,6 +146,86 @@
 				13051D34209FBDB400FF2460 /* Info.plist */,
 			);
 			path = itNessUITests;
+			sourceTree = "<group>";
+		};
+		13051D7F20A6561A00FF2460 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				13051D8320A6598200FF2460 /* entities */,
+				13051D8220A6597600FF2460 /* data */,
+				13051D8C20A6684E00FF2460 /* ExercicesModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		13051D8220A6597600FF2460 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				13051D8620A65A5300FF2460 /* Muscles.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		13051D8320A6598200FF2460 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				13051D8020A6567600FF2460 /* Exercice.swift */,
+				13051D8820A666E800FF2460 /* TrainingProgram.swift */,
+				13051D8A20A6670100FF2460 /* ExerciceProgram.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		13051D8E20A6774C00FF2460 /* modelController */ = {
+			isa = PBXGroup;
+			children = (
+				13051D8F20A6776600FF2460 /* ExercicesModelController.swift */,
+			);
+			path = modelController;
+			sourceTree = "<group>";
+		};
+		1384CB2920A8FBA500D1ED71 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				1384CB2E20A909CA00D1ED71 /* utils */,
+				1384CB2A20A8FBD700D1ED71 /* UILabelNumericDouble.swift */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		1384CB2E20A909CA00D1ED71 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				1384CB2C20A8FFDE00D1ED71 /* UICustomErrors.swift */,
+				1384CB2F20A90A0000D1ED71 /* DataUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		13B5DDD120A6ED1500666D2C /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				13051D14209FBDB200FF2460 /* ExerciceViewController.swift */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		13B5DDD220A7229D00666D2C /* presentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				13B5DDD120A6ED1500666D2C /* viewController */,
+				13B5DDD520A752AA00666D2C /* util */,
+			);
+			name = presentationLayer;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		13B5DDD520A752AA00666D2C /* util */ = {
+			isa = PBXGroup;
+			children = (
+				13B5DDD320A722BD00666D2C /* MuscleLedLabel.swift */,
+			);
+			path = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +359,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13051D15209FBDB200FF2460 /* ViewController.swift in Sources */,
+				13051D8B20A6670100FF2460 /* ExerciceProgram.swift in Sources */,
+				1384CB3020A90A0000D1ED71 /* DataUtils.swift in Sources */,
+				1384CB2D20A8FFDE00D1ED71 /* UICustomErrors.swift in Sources */,
+				13051D9020A6776600FF2460 /* ExercicesModelController.swift in Sources */,
+				13051D8720A65A5300FF2460 /* Muscles.swift in Sources */,
+				13051D8120A6567600FF2460 /* Exercice.swift in Sources */,
+				13051D8920A666E800FF2460 /* TrainingProgram.swift in Sources */,
+				13051D8D20A6684E00FF2460 /* ExercicesModel.swift in Sources */,
+				13B5DDD420A722BD00666D2C /* MuscleLedLabel.swift in Sources */,
+				13051D15209FBDB200FF2460 /* ExerciceViewController.swift in Sources */,
+				1384CB2B20A8FBD700D1ED71 /* UILabelNumericDouble.swift in Sources */,
 				13051D13209FBDB200FF2460 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

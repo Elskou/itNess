@@ -12,10 +12,20 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    let exercicesModel: ExercicesModel! = ExercicesModel()
+    var exercicesModelController: ExercicesModelController?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        exercicesModelController = ExercicesModelController(exerciceModel: self.exercicesModel)
+        
+        if let firstViewController = window?.rootViewController as? ExerciceViewController {
+            firstViewController.exercicesModelController = self.exercicesModelController
+        }
+        else {
+            print("Problem in AppDelegate.swift when deploying view controllers")
+        }
+        
         return true
     }
 
